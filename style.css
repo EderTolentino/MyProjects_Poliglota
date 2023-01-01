@@ -1,0 +1,514 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html body {
+    background: #2b2a33;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/* TOPO */
+#cabecalho {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    color: white;
+    padding: 10px;
+}
+
+#cabecalho h1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bandeirasTopo {
+    width: 8%;
+    margin: auto;
+}
+
+/* SELEÇÃO */
+#escolha {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2b2a33;
+}
+
+#linha1 {
+    width: 100%;
+    margin: 10px auto;                
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#categoria {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+select {
+    width: 30%;
+    height: 30px;
+    margin-left: auto;
+    margin-right: 2%;
+}
+
+.botoes {
+    width: 10%;
+    height: 30px;                   
+    background-color: skyblue;
+    color: black;
+    border-radius: 7px;
+    font-size: calc(0.8em );
+}
+
+#selecionar {
+    margin-right: auto;
+}          
+
+#linha2 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}            
+
+#palavraSelecionada {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+
+#palavraSelecionada img {
+    height: 35px;                
+    margin-left: 2%;
+    margin-right: auto;
+}      
+
+#palavraPortugues {
+    width: 40%;
+    height: 35px;                
+    background-color: white;
+    color: black;                
+    text-align: center;                
+    font-size: 13px;
+    margin-left: auto;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#botoes {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+
+} 
+
+
+#proximaPalavra {
+    margin-left: auto;
+    margin-right: 2%;
+}
+
+#sortearPalavra {
+    margin-right: auto;
+}
+
+
+/* PRINCIPAL */
+.estatistica, #categoriaEscolhida {
+    background-color: white;
+    text-align: center;
+}
+
+#principal {
+    background-color: #2b2a33;
+    margin: 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#esquerda {
+    width: 60%;
+    background-color: #2b2a33;
+    margin: auto;
+}
+
+#esquerda table {
+    width: 100%;
+}
+
+#esquerda table td, #direita table td {
+    height: 40px;
+}
+
+ .col-1 {
+    width: 15%;
+}
+
+.col-2 {
+    width: 35%;
+    padding-left: 5px;
+    background-color: white;
+    color: white;
+    font-size: 10px;
+}
+
+.col-3 {
+    width: 32%;
+}
+
+/* RESULTADO - COLUNA OCULTA - COR DA LETRA IGUAL AO FUNDO - MELHORAR UM DIA PARA DISPLAY SEM PERDER A ESTRUTURA */
+.col-4 {
+    width: 18%;
+    color: black;
+    text-align: center;
+    background-color: white;
+}
+
+#mostrar {
+    background-color: white;
+    text-align: center;
+}
+
+.idioma {
+    width: 100%;
+    height: 40px;
+    background-color: skyblue;
+    border-radius: 7px;
+}
+
+#mostrarTodos {
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-color: skyblue;
+    border-radius: 7px;
+}
+
+#palavraTestada {
+    width: 120px;
+    background-color: white;
+    text-align: center;
+    font-size: 11px;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+}
+
+#conferir {
+    width: 100%;
+    height: 40px;
+    background-color: skyblue;
+    border-radius: 7px;
+    margin-left: auto;
+}
+
+#direita {
+    width: 40%;
+    background-color: #2b2a33;
+    margin: 5px auto;
+}
+
+#direita table {
+    width: 100%;     
+}
+
+.col-5 {
+    width: 15%;
+}
+
+
+.col-5 img {
+    margin: auto;
+}
+
+.col-6, .col-7, .col-8, .col-9 {
+    width: 20%;
+    background-color: white;
+    text-align: center;
+}
+
+.bandRes {
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}            
+
+/* FOOTER */
+
+.footer {
+    margin: 10px;
+    min-height: 80px;
+    background-color: ghostwhite;
+    text-align: center;
+    font-style: italic;
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer_left {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#footer_left h3 {
+    font-size: 1rem;
+    margin-bottom: 0px;
+}
+
+#footer_left p {
+    font-size: 0.9rem;
+    margin-top: 1%;
+}
+
+#footer_center {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    font-size: 0.9rem;
+}
+
+.footer ul {
+    text-align: center;
+    padding: 0px;
+    margin: 1%;
+}
+
+.footer ul li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+#footer_center ul li {
+    width: 20%;
+    margin: 1%;
+}
+
+#footer_center ul li a {
+    text-decoration: none;
+}
+
+#footer_right {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+.fa {
+    background-color: white;
+    border-radius: 40%;
+    border: 1px solid grey;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-whatsapp {
+    background-color: #34af23;
+    color: white;
+}   
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background: #000;
+    color: white;
+    margin-right: 5px;
+}
+
+.btn_toTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    text-decoration: none;
+    opacity: 0.6;
+}
+.btn_toTop::after {
+    content: "↑";
+    font-size: 32px;
+    font-weight: bold;
+    color: aliceblue;
+    transition: margin-top 250ms;
+}
+.btn_toTop:hover::after {
+    margin-top:-8px;
+}
+
+
+/*  RESPONSIVIDADE */
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+
+    #esquerda, #direita {
+        width: 100%;
+    }
+
+    /* LINHA VAZIA - TENTAR OUTRA SOLUÇÃO PARA RETIRÁ-LA*/
+
+    #direita table td {
+        height: 20px;
+    }
+
+    .bandRes {
+        height: 30px;
+    }
+
+    .botoes, #selecionar {
+        font-size: 8px;                    
+    }
+
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+
+
+
+   h1 {
+        font-size: 14px;
+    }
+
+    table td {
+        font-size: 8px;
+    }
+
+    #selecao {
+        width: 60%;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .botoes, #selecionar {
+        width: 25%;
+        height: 20px;
+        font-size: 8px;                    
+    }
+
+    #palavraPortugues {
+        width: 60%;
+        height: 20px;
+        font-size: 8px;
+    }
+
+    #palavraSelecionada img {
+        height: 20px;
+    }
+
+    #esquerda, #direita {
+        width: 100%;
+    }
+
+    .inputEntrada {
+        font-size: 8px;
+    }
+
+    /* LINHA VAZIA - TENTAR OUTRA SOLUÇÃO PARA RETIRÁ-LA*/
+
+    #direita table td {
+        height: 20px;
+    }
+
+    .bandRes {
+        height: 20px;
+    }
+
+    #palavraTestada {
+        font-size: 8px;
+    }
+
+    .col-2 {
+        width: 25%;
+        font-size: 8px;
+    }
+
+    .idioma, #mostrarTodos, #conferir {
+        font-size: 8px;
+    }
+
+    /* FOOTER */
+    .footer {
+        font-size: 0.8rem;
+    }
+
+    #footer_left {
+        width: 100%;
+    }
+    
+    #footer_left h3 {
+        font-size: 0.8rem;
+    }
+    
+    #footer_left p {
+        font-size: 0.7rem;
+    }
+
+    #footer_center {
+        width: 75%;
+        margin: auto;
+        font-size: 0.7rem;
+    }
+
+    #footer_right {
+        width: 25%;
+        margin: auto;
+        text-align: center;
+    }
+
+
+
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (max-width: 480px) {
+    /* FOOTER */
+    #footer_center {
+        width: 100%;
+        font-size: 0.6rem;
+    }
+
+    #footer_right {
+        width: 100%;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+    
+}
+                        
+                    
