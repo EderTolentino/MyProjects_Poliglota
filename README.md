@@ -1,9 +1,25 @@
-# MyProjects_Poliglota
+# Poliglota
 
-POLIGLOTA
+A personal vocabulary-learning application, initially created to practise French and later expanded to explore English, Spanish, Italian, German, Chinese and Russian.
 
-Initially created to learn French vocabulary, I decided to add English and Spanish, as I also want to improve my vocabulary in these languages. Then I decided to add Italian, German, Chinese and Russian, as they are languages that I am interested to learn in the future.
+## Technologies
+CSS, JavaScript, PHP, AJAX and a database.
 
-I practiced a lot of CSS, JavaScript, PHP, Database and AJAX, besides learning a little more French, which was the only language that I checked the translation of most of the content, the others I just translated using the Reverso dictionary.
+## Project goals
+- Organise vocabulary by language and category
+- Practise fetching and presenting data using AJAX and PHP
+- Explore multilingual content and translation workflows
 
-I want to make some improvements like: adding images, a button to go back to the previous word, improving the layout, checking translations and putting some command that allows to start a category in a specific point, to make possible to stop and continue in another moment.
+## Availability
+**Source code only:** a working public demo is not currently documented. Running the full application requires a PHP environment and a configured database.
+
+## Known limitations
+Translations beyond French were initially sourced from a dictionary and were not all independently checked. They should be reviewed before the project is used as a reliable learning resource.
+
+## Potential improvements
+- Add images to vocabulary entries
+- Navigate back to previous words
+- Resume a category from a chosen point
+- Improve the layout and verify translations
+
+This is a personal learning project and part of my earlier web-development portfolio.
